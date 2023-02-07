@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="cabecalho"  >
+      <div class="row">
+          <div class="col" id="logo" >
+            <%= image_tag("/logo.png", :size=> "70x70") %>
+            </div>
+            <div class="col text-center" id="golias">
+               <h4>Sistema de Gerenciamento Pericial</h4>
+            </div>
+            <div class="col text-center" id="golias">
+               <p><strong>Data</strong></p>
+               <%= data_br(Date.today) %>
+            </div>
+      </div>
+  </div>
+</div>
+
+<style>
+  div.cabecalho{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    height:70px;
+    width:100%;
+    color:white;
+    background-color:black
+  }
+ 
+<style>
+ 
